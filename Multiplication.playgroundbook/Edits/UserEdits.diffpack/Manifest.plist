@@ -26,7 +26,14 @@
 			</dict>
 		</array>
 		<key>Modified</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Diff</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift.delta</string>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+			</dict>
+		</array>
 		<key>Removed</key>
 		<array/>
 		<key>Replaced</key>
