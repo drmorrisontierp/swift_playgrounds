@@ -7,20 +7,28 @@
 		<dict>
 			<key>ModifiedContent</key>
 			<string>var primes: [Bool] = []
-for var x in 2...10{
+var primenumbers: [Int] = [] 
+for var x in 0...1000{
     primes.append(true)
 }
-for var x in 0..&lt;primes.count{
-    for var y in 0.stride(to: primes.count, by: x){
+for var x in 2..&lt;primes.count{
+    for var y in stride(from: 2*x, to: primes.count, by: x){
         primes[y] = false
     }
 }
+for var (i, x) in primes.enumerated() {
+    if x {
+        primenumbers.append(i)
+    }
+}
+primenumbers.removeFirst()
+primenumbers.removeFirst()
 
 
-print(primes)
+print(primenumbers)
 </string>
 			<key>ModifiedRange</key>
-			<string>{0, 204}</string>
+			<string>{0, 395}</string>
 			<key>OriginalContent</key>
 			<string>
 </string>
